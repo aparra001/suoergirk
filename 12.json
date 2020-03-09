@@ -1,0 +1,3009 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerGroups_s2sssa801_name": {
+            "defaultValue": "s2sssa801",
+            "type": "String"
+        },
+        "containerGroups_s2sssa802_name": {
+            "defaultValue": "s2sssa802",
+            "type": "String"
+        },
+        "containerGroups_s2sssa803_name": {
+            "defaultValue": "s2sssa803",
+            "type": "String"
+        },
+        "containerGroups_s2sssa804_name": {
+            "defaultValue": "s2sssa804",
+            "type": "String"
+        },
+        "containerGroups_s2sssa805_name": {
+            "defaultValue": "s2sssa805",
+            "type": "String"
+        },
+        "containerGroups_s2sssa806_name": {
+            "defaultValue": "s2sssa806",
+            "type": "String"
+        },
+        "containerGroups_s2sssa807_name": {
+            "defaultValue": "s2sssa807",
+            "type": "String"
+        },
+        "containerGroups_s2sssa808_name": {
+            "defaultValue": "s2sssa808",
+            "type": "String"
+        },
+        "containerGroups_s2sssa809_name": {
+            "defaultValue": "s2sssa809",
+            "type": "String"
+        },
+        "containerGroups_s2sssa810_name": {
+            "defaultValue": "s2sssa810",
+            "type": "String"
+        },
+        "containerGroups_s2sssa811_name": {
+            "defaultValue": "s2sssa811",
+            "type": "String"
+        },
+        "containerGroups_s2sssa812_name": {
+            "defaultValue": "s2sssa812",
+            "type": "String"
+        },
+        "containerGroups_s2sssa813_name": {
+            "defaultValue": "s2sssa813",
+            "type": "String"
+        },
+        "containerGroups_s2sssa814_name": {
+            "defaultValue": "s2sssa814",
+            "type": "String"
+        },
+        "containerGroups_s2sssa815_name": {
+            "defaultValue": "s2sssa815",
+            "type": "String"
+        },
+        "containerGroups_s2sssa816_name": {
+            "defaultValue": "s2sssa816",
+            "type": "String"
+        },
+        "containerGroups_s2sssa817_name": {
+            "defaultValue": "s2sssa817",
+            "type": "String"
+        },
+        "containerGroups_s2sssa818_name": {
+            "defaultValue": "s2sssa818",
+            "type": "String"
+        },
+        "containerGroups_s2sssa819_name": {
+            "defaultValue": "s2sssa819",
+            "type": "String"
+        },
+        "containerGroups_s2sssa820_name": {
+            "defaultValue": "s2sssa820",
+            "type": "String"
+        },
+        "containerGroups_s2sssa821_name": {
+            "defaultValue": "s2sssa821",
+            "type": "String"
+        },
+        "containerGroups_s2sssa822_name": {
+            "defaultValue": "s2sssa822",
+            "type": "String"
+        },
+        "containerGroups_s2sssa823_name": {
+            "defaultValue": "s2sssa823",
+            "type": "String"
+        },
+        "containerGroups_s2sssa824_name": {
+            "defaultValue": "s2sssa824",
+            "type": "String"
+        },
+        "containerGroups_s2sssa825_name": {
+            "defaultValue": "s2sssa825",
+            "type": "String"
+        },
+        "containerGroups_s2sssa826_name": {
+            "defaultValue": "s2sssa826",
+            "type": "String"
+        },
+        "containerGroups_s2sssa827_name": {
+            "defaultValue": "s2sssa827",
+            "type": "String"
+        },
+        "containerGroups_s2sssa828_name": {
+            "defaultValue": "s2sssa828",
+            "type": "String"
+        },
+        "containerGroups_s2sssa829_name": {
+            "defaultValue": "s2sssa829",
+            "type": "String"
+        },
+        "containerGroups_s2sssa830_name": {
+            "defaultValue": "s2sssa830",
+            "type": "String"
+        },
+        "containerGroups_s2sssa831_name": {
+            "defaultValue": "s2sssa831",
+            "type": "String"
+        },
+        "containerGroups_s2sssa832_name": {
+            "defaultValue": "s2sssa832",
+            "type": "String"
+        },
+        "containerGroups_s2sssa833_name": {
+            "defaultValue": "s2sssa833",
+            "type": "String"
+        },
+        "containerGroups_s2sssa834_name": {
+            "defaultValue": "s2sssa834",
+            "type": "String"
+        },
+        "containerGroups_s2sssa835_name": {
+            "defaultValue": "s2sssa835",
+            "type": "String"
+        },
+        "containerGroups_s2sssa836_name": {
+            "defaultValue": "s2sssa836",
+            "type": "String"
+        },
+        "containerGroups_s2sssa837_name": {
+            "defaultValue": "s2sssa837",
+            "type": "String"
+        },
+        "containerGroups_s2sssa838_name": {
+            "defaultValue": "s2sssa838",
+            "type": "String"
+        },
+        "containerGroups_s2sssa839_name": {
+            "defaultValue": "s2sssa839",
+            "type": "String"
+        },
+        "containerGroups_s2sssa840_name": {
+            "defaultValue": "s2sssa840",
+            "type": "String"
+        },
+        "containerGroups_s2sssa841_name": {
+            "defaultValue": "s2sssa841",
+            "type": "String"
+        },
+        "containerGroups_s2sssa842_name": {
+            "defaultValue": "s2sssa842",
+            "type": "String"
+        },
+        "containerGroups_s2sssa843_name": {
+            "defaultValue": "s2sssa843",
+            "type": "String"
+        },
+        "containerGroups_s2sssa844_name": {
+            "defaultValue": "s2sssa844",
+            "type": "String"
+        },
+        "containerGroups_s2sssa845_name": {
+            "defaultValue": "s2sssa845",
+            "type": "String"
+        },
+        "containerGroups_s2sssa846_name": {
+            "defaultValue": "s2sssa846",
+            "type": "String"
+        },
+        "containerGroups_s2sssa847_name": {
+            "defaultValue": "s2sssa847",
+            "type": "String"
+        },
+        "containerGroups_s2sssa848_name": {
+            "defaultValue": "s2sssa848",
+            "type": "String"
+        },
+        "containerGroups_s2sssa849_name": {
+            "defaultValue": "s2sssa849",
+            "type": "String"
+        },
+        "containerGroups_s2sssa850_name": {
+            "defaultValue": "s2sssa850",
+            "type": "String"
+        },
+        "containerGroups_s2sssa851_name": {
+            "defaultValue": "s2sssa851",
+            "type": "String"
+        },
+        "containerGroups_s2sssa852_name": {
+            "defaultValue": "s2sssa852",
+            "type": "String"
+        },
+        "containerGroups_s2sssa853_name": {
+            "defaultValue": "s2sssa853",
+            "type": "String"
+        },
+        "containerGroups_s2sssa854_name": {
+            "defaultValue": "s2sssa854",
+            "type": "String"
+        },
+        "containerGroups_s2sssa855_name": {
+            "defaultValue": "s2sssa855",
+            "type": "String"
+        },
+        "containerGroups_s2sssa856_name": {
+            "defaultValue": "s2sssa856",
+            "type": "String"
+        },
+        "containerGroups_s2sssa857_name": {
+            "defaultValue": "s2sssa857",
+            "type": "String"
+        },
+        "containerGroups_s2sssa858_name": {
+            "defaultValue": "s2sssa858",
+            "type": "String"
+        },
+        "containerGroups_s2sssa859_name": {
+            "defaultValue": "s2sssa859",
+            "type": "String"
+        },
+        "containerGroups_s2sssa860_name": {
+            "defaultValue": "s2sssa860",
+            "type": "String"
+        },
+        "containerGroups_s2sssa861_name": {
+            "defaultValue": "s2sssa861",
+            "type": "String"
+        },
+        "containerGroups_s2sssa862_name": {
+            "defaultValue": "s2sssa862",
+            "type": "String"
+        },
+        "containerGroups_s2sssa863_name": {
+            "defaultValue": "s2sssa863",
+            "type": "String"
+        },
+        "containerGroups_s2sssa864_name": {
+            "defaultValue": "s2sssa864",
+            "type": "String"
+        },
+        "containerGroups_s2sssa865_name": {
+            "defaultValue": "s2sssa865",
+            "type": "String"
+        },
+        "containerGroups_s2sssa866_name": {
+            "defaultValue": "s2sssa866",
+            "type": "String"
+        },
+        "containerGroups_s2sssa867_name": {
+            "defaultValue": "s2sssa867",
+            "type": "String"
+        },
+        "containerGroups_s2sssa868_name": {
+            "defaultValue": "s2sssa868",
+            "type": "String"
+        },
+        "containerGroups_s2sssa869_name": {
+            "defaultValue": "s2sssa869",
+            "type": "String"
+        },
+        "containerGroups_s2sssa870_name": {
+            "defaultValue": "s2sssa870",
+            "type": "String"
+        },
+        "containerGroups_s2sssa871_name": {
+            "defaultValue": "s2sssa871",
+            "type": "String"
+        },
+        "containerGroups_s2sssa872_name": {
+            "defaultValue": "s2sssa872",
+            "type": "String"
+        },
+        "containerGroups_s2sssa873_name": {
+            "defaultValue": "s2sssa873",
+            "type": "String"
+        },
+        "containerGroups_s2sssa874_name": {
+            "defaultValue": "s2sssa874",
+            "type": "String"
+        },
+        "containerGroups_s2sssa875_name": {
+            "defaultValue": "s2sssa875",
+            "type": "String"
+        },
+        "containerGroups_s2sssa876_name": {
+            "defaultValue": "s2sssa876",
+            "type": "String"
+        },
+        "containerGroups_s2sssa877_name": {
+            "defaultValue": "s2sssa877",
+            "type": "String"
+        },
+        "containerGroups_s2sssa878_name": {
+            "defaultValue": "s2sssa878",
+            "type": "String"
+        },
+        "containerGroups_s2sssa879_name": {
+            "defaultValue": "s2sssa879",
+            "type": "String"
+        },
+        "containerGroups_s2sssa880_name": {
+            "defaultValue": "s2sssa880",
+            "type": "String"
+        },
+        "containerGroups_s2sssa881_name": {
+            "defaultValue": "s2sssa881",
+            "type": "String"
+        },
+        "containerGroups_s2sssa882_name": {
+            "defaultValue": "s2sssa882",
+            "type": "String"
+        },
+        "containerGroups_s2sssa883_name": {
+            "defaultValue": "s2sssa883",
+            "type": "String"
+        },
+        "containerGroups_s2sssa884_name": {
+            "defaultValue": "s2sssa884",
+            "type": "String"
+        },
+        "containerGroups_s2sssa885_name": {
+            "defaultValue": "s2sssa885",
+            "type": "String"
+        },
+        "containerGroups_s2sssa886_name": {
+            "defaultValue": "s2sssa886",
+            "type": "String"
+        },
+        "containerGroups_s2sssa887_name": {
+            "defaultValue": "s2sssa887",
+            "type": "String"
+        },
+        "containerGroups_s2sssa888_name": {
+            "defaultValue": "s2sssa888",
+            "type": "String"
+        },
+        "containerGroups_s2sssa889_name": {
+            "defaultValue": "s2sssa889",
+            "type": "String"
+        },
+        "containerGroups_s2sssa890_name": {
+            "defaultValue": "s2sssa890",
+            "type": "String"
+        },
+        "containerGroups_s2sssa891_name": {
+            "defaultValue": "s2sssa891",
+            "type": "String"
+        },
+        "containerGroups_s2sssa892_name": {
+            "defaultValue": "s2sssa892",
+            "type": "String"
+        },
+        "containerGroups_s2sssa893_name": {
+            "defaultValue": "s2sssa893",
+            "type": "String"
+        },
+        "containerGroups_s2sssa894_name": {
+            "defaultValue": "s2sssa894",
+            "type": "String"
+        },
+        "containerGroups_s2sssa895_name": {
+            "defaultValue": "s2sssa895",
+            "type": "String"
+        },
+        "containerGroups_s2sssa896_name": {
+            "defaultValue": "s2sssa896",
+            "type": "String"
+        },
+        "containerGroups_s2sssa897_name": {
+            "defaultValue": "s2sssa897",
+            "type": "String"
+        },
+        "containerGroups_s2sssa898_name": {
+            "defaultValue": "s2sssa898",
+            "type": "String"
+        },
+        "containerGroups_s2sssa899_name": {
+            "defaultValue": "s2sssa899",
+            "type": "String"
+        },
+        "containerGroups_s2sssa900_name": {
+            "defaultValue": "s2sssa900",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa801_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa801_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa802_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa802_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa803_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa803_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa804_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa804_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa805_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa805_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa806_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa806_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa807_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa807_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa808_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa808_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa809_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa809_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa810_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa810_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa811_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa811_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa812_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa812_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa813_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa813_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa814_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa814_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa815_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa815_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa816_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa816_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa817_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa817_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa818_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa818_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa819_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa819_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa820_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa820_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa821_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa821_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa822_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa822_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa823_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa823_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa824_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa824_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa825_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa825_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa826_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa826_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa827_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa827_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa828_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa828_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa829_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa829_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa830_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa830_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa831_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa831_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa832_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa832_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa833_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa833_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa834_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa834_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa835_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa835_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa836_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa836_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa837_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa837_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa838_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa838_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa839_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa839_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa840_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa840_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa841_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa841_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa842_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa842_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa843_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa843_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa844_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa844_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa845_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa845_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa846_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa846_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa847_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa847_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa848_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa848_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa849_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa849_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa850_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa850_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa851_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa851_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa852_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa852_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa853_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa853_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa854_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa854_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa855_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa855_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa856_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa856_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa857_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa857_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa858_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa858_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa859_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa859_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa860_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa860_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa861_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa861_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa862_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa862_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa863_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa863_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa864_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa864_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa865_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa865_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa866_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa866_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa867_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa867_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa868_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa868_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa869_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa869_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa870_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa870_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa871_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa871_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa872_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa872_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa873_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa873_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa874_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa874_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa875_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa875_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa876_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa876_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa877_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa877_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa878_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa878_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa879_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa879_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa880_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa880_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa881_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa881_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa882_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa882_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa883_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa883_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa884_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa884_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa885_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa885_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa886_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa886_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa887_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa887_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa888_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa888_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa889_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa889_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa890_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa890_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa891_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa891_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa892_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+						"name": "[parameters('containerGroups_s2sssa892_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa893_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa893_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa894_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa894_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa895_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa895_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa896_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa896_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa897_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa897_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa898_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa898_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa899_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa899_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_s2sssa900_name')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_s2sssa900_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        }
+    ]
+}
